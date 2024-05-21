@@ -5,9 +5,9 @@
   </div>
 </template>
 
-<style lang="postcss" module>
+<style module>
 .spinner_background {
-  @apply opacity-75 bg-red-600;
+  @apply opacity-75 bg-green-600;
 }
 .spinner_foreground {
   @apply opacity-25;
