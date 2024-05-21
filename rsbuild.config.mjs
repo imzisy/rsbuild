@@ -7,6 +7,7 @@ export default defineConfig({
   ],
   tools: {
     postcss: (options) => {
+      console.log(options.postcssOptions.plugins);
     },
   },
   source: {

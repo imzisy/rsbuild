@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<style lang="postcss" scoped>
+<style lang="postcss" module>
 .spinner_background {
   @apply opacity-75 bg-red-600;
 }
