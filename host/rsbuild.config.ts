@@ -25,6 +25,9 @@ export default defineConfig({
   },
   tools: {
     rspack: {
+      output: {
+        publicPath: "/",
+      },
       resolve: {
         alias: {
           "@": path.resolve(__dirname, "src"),

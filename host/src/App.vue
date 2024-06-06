@@ -1,10 +1,10 @@
 <script>
-import Button from 'remote/Button'
+import Test from 'remote/Button'
 
 export default {
   name: 'App',
   components: {
-    Button
+    Test
   }
 };
 </script>
@@ -12,7 +12,7 @@ export default {
 <template>
   <div class="content">
     <h1>Rsbuild with Vue host</h1>
-    <Button></Button>
+    <Test/>
     <p>Start building amazing things with Rsbuild.</p>
   </div>
 </template>
